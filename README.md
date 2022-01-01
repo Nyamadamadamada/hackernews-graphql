@@ -12,3 +12,8 @@ git branch -M main
 git remote add origin git@github.com:Nyamadamadamada/hackernews-graphql.git
 git push -u origin main
 ```
+
+Vercelアカウント登録  
+[https://vercel.com/login](https://vercel.com/login)
+
+Coninue with GitHub
