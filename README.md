@@ -18,3 +18,11 @@ https://www.apollographql.com/docs/apollo-server/deployment/heroku/
 Herokuアカウント登録  
 [https://dashboard.heroku.com/login](https://dashboard.heroku.com/login)
 
+Resouce/Add-onsから「Find more add-ons」からHeroku Postgresを選択
+
+```
+// プリズマの初期化
+npx prisma init    
+// schema.prisma修正後
+npx prisma db push                     
+```
