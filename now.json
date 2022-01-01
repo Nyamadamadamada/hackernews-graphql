@@ -1,6 +1,7 @@
 {
-  "name": "graphql-server",
+  "name": "hackernews-node",
+  "alias": "hackernews-graphql.vercel.app",
   "env": {
-    "NODE_ENV": "production"
+    "NODE_ENV": "development"
   }
 }
