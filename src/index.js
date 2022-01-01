@@ -38,7 +38,8 @@ const server = new ApolloServer({
           ? getUserId(req)
           : null
     };
-  }
+  },
+  playground: true,
 });
 
 

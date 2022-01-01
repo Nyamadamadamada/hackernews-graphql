@@ -33,3 +33,9 @@ heroku buildpacks
 heroku buildpacks:set heroku/nodejs
 git push heroku main
 ```
+
+ポートが埋まっていた時
+```
+lsof -i :4000
+kill -9 <PID>
+```
