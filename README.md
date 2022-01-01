@@ -26,3 +26,10 @@ npx prisma init
 // schema.prisma修正後
 npx prisma db push                     
 ```
+
+
+```
+heroku buildpacks
+heroku buildpacks:set heroku/nodejs
+git push heroku main
+```
